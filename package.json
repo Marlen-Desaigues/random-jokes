@@ -1,5 +1,5 @@
 {
-  "name": "random-jokes",
+  "name": "projet-1",
   "private": true,
   "scripts": {
     "start": "meteor run",
@@ -8,17 +8,16 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.8.4",
-    "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
+    "@babel/runtime": "^7.7.6",
+    "bcrypt": "^4.0.1",
+    "date-fns": "^2.13.0",
     "meteor-node-stubs": "^1.0.0",
-    "popper.js": "^1.16.1",
-    "react": "^16.13.0",
-    "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.9.0",
     "react-icons": "^3.10.0",
-    "react-router-dom": "^5.2.0",
-    "react-toastify": "^6.0.5"
+    "react-router-dom": "^5.1.2",
+    "react-toastify": "^5.5.0"
   },
   "meteor": {
     "mainModule": {
