@@ -31,7 +31,7 @@ class Signin extends Component {
             if (error) {
                 toast.error(error.reason);
             } else {
-                this.props.history.push('/room');
+                this.props.history.push('/joke');
             }
         });
     };

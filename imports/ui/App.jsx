@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Home   from '/imports/ui/pages/Home';
 import Signin from '/imports/ui/pages/Signin';
 import Signup from '/imports/ui/pages/Signup';
+import Joke   from '/imports/ui/pages/Joke';
 
 const App = () => {
   return (

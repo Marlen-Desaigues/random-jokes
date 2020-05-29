@@ -1,0 +1,28 @@
+.container {
+    padding-bottom: 6.5em;
+}
+
+.header {
+    text-align: center;
+    background-color: sandybrown;
+}
+
+.logout {
+    float: right;
+    margin: 0.3em;
+}
+
+.message {
+    background-color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 5px;
+    box-shadow: #d3d3d3c7 1px 1px 4px;
+}
+
+.sender {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
