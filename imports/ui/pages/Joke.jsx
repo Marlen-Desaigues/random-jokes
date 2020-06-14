@@ -6,9 +6,12 @@ import Button    from 'react-bootstrap/Button';
 
 import { AiOutlineLogout } from 'react-icons/ai';
 
+import CreateJoke from '/imports/ui/components/CreateJoke';
+import ViewJokes  from '/imports/ui/components/ViewJokes';
+
 import './Joke.css';
 
-class Joke extends Component {
+class Jook extends Component {
     handleClick = () => {
         Meteor.logout();
         this.props.history.push('/');
@@ -18,13 +21,13 @@ class Joke extends Component {
         return (
             <div>
                 <h1 className="header">
-                    Caubet la D.
+                    Blagues.
                     <Button className="logout" onClick={this.handleClick}>
                         <AiOutlineLogout />
                     </Button>
                 </h1>
-                <ViewMessages />
-                <CreateMessage />
+                <ViewJokes />
+                <CreateJoke />
             </div>
         );
     };
